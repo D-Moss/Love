@@ -176,7 +176,7 @@ label {
 
 .popup-content {
 	position: relative;
-	margin: 10% 70%;
+	margin: 13% 75%;
 	width: 350px;
 	background-color: white;
 	padding: 20px;
@@ -196,7 +196,7 @@ label {
 	cursor: pointer;
 }
 
-footer a {
+#shinyheart {
 	text-decoration: none;
 	float: right;
 }
@@ -210,7 +210,11 @@ footer a {
 		margin-top: 25px;
 	}
 	.popup-content {
-		margin-left: 3%;
-		margin-top: 80%;
+		margin: 83% 50%;
+	}
+	
+	#shinyheart {
+		text-decoration: none;
+		margin: 3% 5%;
 	}
 }

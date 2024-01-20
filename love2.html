@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="index.css">
-	<title>Love2</title>
+	<title>Love</title>
 </head>
 <body>
 	<h1>...my Valentine</h1>
@@ -12,56 +12,69 @@
 	<h3>Pick one</h3>
 	<main>
 		<section id="pattern1">
-			<label style="--icon:'😘'; --color:pink">
-				<input type="radio" name="recommend" checked>Of Course!</label><br>
-			
-			<label style="--icon:'🤔'; --color:lightblue">
-				<input type="radio" name="recommend" checked>Maybe</label><br>
+			<label style="--icon:'😘';--color:pink">
+				<input type="radio" name="recommend">Of Course!
+			</label><br />
 
-		<!-- Create a button to trigger the popup -->
-			<label style="--icon:'🤬'; --color:lightgrey">
-				<input type="radio" name="recommend" id="popup-button" checked>No, Sorry</label><br>
+			<label style="--icon:'🤔';--color:lightblue">
+				<input type="radio" name="recommend">Maybe
+			</label><br />
 
-		<!-- Create the popup container -->
+			<!-- Create a button to trigger the popup -->
+
+			<label style="--icon:'🤬';--color:lightgrey">
+				<input type="radio" name="recommend" id="popup-button">No, sorry
+			</label>
+
+			<!-- Create the popup container -->
+
 			<div id="popup" class="popup">
 				<div class="popup-container">
 					<div class="popup-content">
-		<!--Create the close button -->
-						<span id="close-button" class="close-button">x</span>
-		<!-- Add the popup message -->
-						<h1>NO!!!??</h1>
-						<p>REALLY!!! YOU SAID NO!!!!! TRY AGAIN. AND MAKE SURE YOU PICK THE RIGHT ANSWER THIS TIME</p>
+						
+			<!-- Create the close button -->
+
+					<span id="close-button" class="close-button">
+						x
+					</span>
+
+			<!-- Add the popup message -->
+
+					<h1>No??!!!</h1>
+					<p>REALLY?!?!?! YOU SAID NO!!! TRY AGAIN. AND MAKE SURE YOU PICK THE RIGHT ANSWER THIS TIME</p>
 					</div>
 				</div>
 			</div>
-		
-		<!-- Add the JavaScript code to handle the popup logic -->
+
+			<!-- Add the JavaScript code to handle the popup logic -->
+
 			<script>
-		//Define a function to show the popup
+			//Define a function to show the popup
 				var popup = document.getElementById("popup");
-				var popupButton = document.getElementById("popup-button");
+				var	popupButton = document.getElementById("popup-button");
 				var closeButton = document.getElementById("close-button");
-		//Define a function to show the popup
+
+			//Define a function to show the popup
 				function showPopup() {
 					popup.classList.add("show");
 				}
-		//Define a function to close the popup
+
+			//Define a function to close the popup
 				function closePopup() {
 					popup.classList.remove("show");
 				}
-		//Add an event listener to the popup button
+
+			//Add an event listener to the popup button
 				popupButton.addEventListener("click", showPopup);
-		//Add an event listener to the close button
+
+			//Add an event listener to the close button
 				closeButton.addEventListener("click", closePopup);
 			</script>
-		
 		</section>
 	</main>
-	
-	<footer>
-		<p>
-			<a href="index.html">💖</a>
-		</p>
-	</footer>
+
+	<p>
+		<a href="index.html" id="shinyheart">💖</a>
+	</p>
 </body>
 </html>
