@@ -201,20 +201,26 @@ label {
 	float: right;
 }
 
+#LOVE {
+	text-decoration: none;
+}
+
 /* Use a media query to add a breakpoint at 800px: */
 
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 250px) {
+	h1 {
+		text-align: center;
+		font-size: 50px;
+		margin-bottom: 25px;
+		padding: 25px;
+	}
 	#heart {
-		width: 25%;
-		margin-left: 275px;
+		margin-left: 175px;
+	}
+	h3 {
 		margin-top: 25px;
 	}
 	.popup-content {
-		margin: 83% 50%;
-	}
-	
-	#shinyheart {
-		text-decoration: none;
-		margin: 3% 5%;
+		margin: 500px 0 0 175px;
 	}
 }
