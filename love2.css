@@ -212,3 +212,33 @@ label {
 		margin: 500px 0 0 175px;
 	}
 }
+
+@media screen and (min-width: 500px) {
+	h1 {
+		text-align: center;
+		font-size: 50px;
+		margin-bottom: 25px;
+		padding: 25px;
+	}
+	h3 {
+		margin-top: 25px;
+	}
+	.popup-content {
+		margin: 500px 0 0 350px;
+	}
+}
+
+@media screen and (min-width: 800px) {
+	h1 {
+		text-align: center;
+		font-size: 50px;
+		margin-bottom: 25px;
+		padding: 25px;
+	}
+	h3 {
+		margin-top: 25px;
+	}
+	.popup-content {
+		margin: 250px 0 0 1100px;
+	}
+}
