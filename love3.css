@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overscroll-behavior-x: none;
+  overscroll-behavior-y: none;
+}
+
+body {
+  background: pink;
+  color: slategrey;
+  position: relative;
+  font-family: "Spectral", serif;
+  font-size: 4vw;
+  width: 100vw;
+  height: auto;
+  min-height: 100vh;
+  text-align: left;
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h2 a {
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #b40000;
+}
+
+#snooze {
+  margin: 250px 0 0 450px;
+}
+
+#shinyheart {
+  text-decoration: none;
+  float: right;
+}
+
+/* Use a media query to add a breakpoint at 800px: */
+
+@media screen and (min-width: 280px) {
+  h2 {
+    margin-top: 25px;
+    text-align: center;
+  }
+  #snooze {
+    margin: 125px 0 0 0;
+  }
+}
