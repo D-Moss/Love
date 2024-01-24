@@ -29,7 +29,7 @@ body {
 h1 {
 	font-size: 6vw;
 	text-align: center;
-	line-height: 1;
+	line-height: 2;
 }
 
 main {
@@ -173,6 +173,10 @@ label {
 	border-radius: 10px;
 	font-size: 2.5vw;
 	color: red;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 50%;
 }
 
 /* Style the close button */
@@ -194,51 +198,4 @@ label {
 #shinyheart {
 	text-decoration: none;
 	float: right;
-}
-
-/* Use a media query to add a breakpoint at 800px: */
-
-@media screen and (min-width: 250px) {
-	h1 {
-		text-align: center;
-		font-size: 50px;
-		margin-bottom: 25px;
-		padding: 25px;
-	}
-	h3 {
-		margin-top: 25px;
-	}
-	.popup-content {
-		margin: 500px 0 0 175px;
-	}
-}
-
-@media screen and (min-width: 500px) {
-	h1 {
-		text-align: center;
-		font-size: 50px;
-		margin-bottom: 25px;
-		padding: 25px;
-	}
-	h3 {
-		margin-top: 25px;
-	}
-	.popup-content {
-		margin: 500px 0 0 350px;
-	}
-}
-
-@media screen and (min-width: 800px) {
-	h1 {
-		text-align: center;
-		font-size: 50px;
-		margin-bottom: 25px;
-		padding: 25px;
-	}
-	h3 {
-		margin-top: 25px;
-	}
-	.popup-content {
-		margin: 250px 0 0 1100px;
-	}
 }
