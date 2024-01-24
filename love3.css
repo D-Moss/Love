@@ -26,50 +26,19 @@ body {
   justify-content: center;
 }
 
+h2,
 h2 a {
   font-weight: bold;
   text-align: center;
   text-decoration: none;
+  text-shadow: 2px 2px yellow;
   color: #b40000;
 }
 
 #snooze {
   margin: 250px 0 0 450px;
-}
-
-#shinyheart {
-  text-decoration: none;
-  float: right;
-}
-
-/* Use a media query */
-
-@media screen and (min-width: 250px) {
-  h2 {
-    margin-top: 25px;
-    text-align: center;
-  }
-  #snooze {
-    margin: 125px 0 0 0;
-  }
-}
-
-@media screen and (min-width: 500px) {
-  h2 {
-    margin-top: 25px;
-    text-align: center;
-  }
-  #snooze {
-    margin: 125px 0 0 75px;
-  }
-}
-
-@media screen and (min-width: 800px) {
-  h2 {
-    margin-top: 25px;
-    text-align: center;
-  }
-  #snooze {
-    margin: 125px 0 0 450px;
-  }
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
