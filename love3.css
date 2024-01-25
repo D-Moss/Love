@@ -26,20 +26,47 @@ body {
   justify-content: center;
 }
 
-h2 {
+h2, a {
   font-weight: bold;
   margin-top: 10px;
   text-align: center;
+  text-decoration: none;
   text-shadow: 2px 2px yellow;
   color: #b40000;
 }
 
-h2 a {
-  font-weight: bold;
-  text-align: center;
-  text-decoration: none;
-  text-shadow: 3px 5px yellow;
+#container {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#container #btn {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.0);
   color: #b40000;
+  font-size: 32px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: "Spectral", serif;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#container #btn:hover {
+  background-color: pink;
+  color: slategrey;
+  font-weight: bold;
+    font-family: "Spectral", serif;
 }
 
 #snooze {
