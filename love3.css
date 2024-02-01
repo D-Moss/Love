@@ -45,12 +45,13 @@ h2, a {
 
 #container #btn {
   position: absolute;
-  top: 140%;
+  top: 110%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: rgba(0, 0, 0, 0.0);
   color: #b40000;
+  text-shadow: 2px 2px yellow;
   font-size: 32px;
   font-weight: bold;
   font-style: italic;
@@ -69,7 +70,7 @@ h2, a {
     font-family: "Spectral", serif;
 }
 
-#snooze {
+#loveyou {
   display: block;
   margin: auto auto;
   width: 75%;
